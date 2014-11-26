@@ -119,7 +119,7 @@ bool Game::dig(int i, int j, bool tryFlagged) {
 
 	updateButtons();
 
-	return false;
+	return checkWin();
 }
 
 bool Game::flag(int i, int j) {
